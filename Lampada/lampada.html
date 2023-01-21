@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada</title>
+
+    <link rel="stylesheet" href="styleLampada.css">
+    <script src="scriptLampada.js" defer></script>
+</head>
+
+<body id="fundo">
+    <header><!--cabeçalho-->
+        <h1>Lâmpada</h1>
+    </header>
+    <main><!--conteúdo principal-->
+        <div>
+            <img src="desligada.png" alt="Lâmpada" id="lampada">
+        </div>
+        <div>
+            <button id="ligar">Ligar</button>
+            <button id="desligar">Desligar</button>
+            <button class="botao" id="botao">Ligar</button>
+            <button class="botao" id="resetar">Resetar</button>
+            <input id="slider" type="range" min="0" max="1" oninput="funSlider()">
+        </div>
+    </main>
+</body>
+
+</html>

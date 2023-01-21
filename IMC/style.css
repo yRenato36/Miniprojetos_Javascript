@@ -1,0 +1,54 @@
+body {
+    background: rgb(255, 255, 255);
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+section {
+    margin: auto;
+    background: #262161;
+    width: 980px;
+    height: 560px;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+h1 {
+    text-shadow: 1px 3px 2px black;
+    margin-bottom: 10px;
+}
+
+.caixaTexto {
+    width: 34%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+section label {
+    display: block;
+    margin-top: 3px;
+}
+
+
+#botaoEnviar {
+    margin: 17px auto; /*adiciona um espaçamento no top de 20px, centraliza o elemento*/
+    display: block;
+    width: 355px; /*largura do botão*/
+    height: 50px; /*altura do botão*/
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 8px;
+    color: white;
+    background-color: #ef3f37;
+    transition: transform 1s;
+
+}
+
+#botaoEnviar:hover {
+    background-color: rgb(199, 27, 18);
+    cursor: pointer;
+    transform: scale(1.07);
+}
+

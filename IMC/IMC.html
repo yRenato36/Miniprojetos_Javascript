@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice de Massa Corporal</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Calculando seu Indice de Massa Corporal</h1>
+            <form>
+                <section>
+
+                    <label for="nome">Nome</label>
+                    <input class="caixaTexto" type="text" id="nome" required>
+
+                    <label for="sobrenome">Sobrenome</label>
+                    <input class="caixaTexto" type="text" id="sobrenome" required>
+
+                    <label for="idade">Idade</label>
+                    <input class="caixaTexto" type="number" id="idade" required>
+
+                    <!--para funcionar tem que ser fornecido um valor decimal-->
+                    <label for="altura">Altura</label>
+                    <input class="caixaTexto" type="number" id="altura" placeholder="Exemplo: 1.75" required>
+
+                    <label for="peso">Peso</label><!-- step="0.01" indica que a contagem do inputbox começará do 0.01-->
+                    <input class="caixaTexto" type="number" id="peso" placeholder="Exemplo: 80.43" required>
+
+                    <input id="botaoEnviar" type="submit" value="Calcular"> <!--onclick="calcular()"-->
+
+                    <label id="resultado"></label>
+                    <label id="textoResultado"><label>
+                </section>
+            </form>
+        </section>
+    </main>
+</body>
+
+
+</html>

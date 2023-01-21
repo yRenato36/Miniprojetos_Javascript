@@ -1,0 +1,83 @@
+header {
+    background-color: #262161;
+    padding: 30px 0px;
+}
+
+/*=============== NAV ====================*/
+nav li {
+    display: inline; /*coloca os elementos em linha, um ao lado do outro*/
+    margin-left: 15px;
+}
+nav a {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none; /*retira todo tipo de decoração do texto*/
+    text-transform: uppercase; /*coloca o texto em maiúculo*/
+}
+nav a:hover {
+    cursor: pointer;
+    color: rgb(168, 168, 168);
+    text-decoration: underline;
+}
+/*=======================================*/
+
+main {
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}
+
+.tituloProjeto {
+    font-size: 20px;
+    margin-top: 8px;
+    text-decoration: none;
+    color: black;
+    transition: 400ms;
+}
+.tituloProjeto::before {
+    content: "▷ ";
+}
+.tituloProjeto:hover {
+    cursor: pointer;
+    color: #ef3f37;
+}
+
+/* ================== Página Sobre ===============*/
+form {
+    margin-left: 10px;
+}
+
+form label {
+    font-size: 23px;
+    display: flex; /*quebra de elementos*/
+    margin-top: 20px;
+    
+}
+
+form input {
+    display: flex;
+    height: 30px;
+    width: 45%;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    
+
+}
+
+/*============= Botões ================*/
+.botao {
+    display: inline-flex;
+    height: 50px;
+    width: 22%;
+    margin-top: 20px;
+}
+
+#confirmar {
+    margin-left: 34px;
+}
